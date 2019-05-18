@@ -3,7 +3,6 @@ imageProcess edge detection (roberts , sobel, prewitt,stochastic filter)
 
 영상처리 HW #3
 
-Due on 18 May
 
 1. Edge detection operators can be compared in an objective way. The performance of an edge detection operator in noise can be measured quantitatively as follows: Let n0 be the number of edge pixels declared and n1 be number of missed or new edge pixels after adding noise. If n0 is held fixed for the noiseless as well as noisy images, then the edge detection error rate is
                         .
@@ -21,6 +20,11 @@ Note that the pixel location (m,n) is declared an edge location if the magnitude
 
 
 
+(1) Method to generate a noisy image with Gaussian noise
+
+The signal-to-noise ratio (SNR) is expressed in decibels as 
+     (dB)
+where   is the variance of the original image and   is the variance of the noise signal. In order to generate a noisy image with a specified SNR by adding Normalized Gaussian Noise with distribution of  , you can refer to the following source codes.
 
 
 
@@ -32,7 +36,6 @@ where
 
 Thus, the image power for MXN image can be obtained by using the following equation:
 
-       .
 
 
 
