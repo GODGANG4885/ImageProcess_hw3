@@ -32,7 +32,7 @@ where ![image](https://user-images.githubusercontent.com/36159663/57966768-45d02
 
 
 
- (2) Method to compute an image power or variance
+ ##(2) Method to compute an image power or variance
 
 The signal variance can be represented as follows:
  
@@ -43,7 +43,7 @@ Thus, the image power for MXN image can be obtained by using the following equat
 
 
 
-(3) Edge Detection Masks
+##(3) Edge Detection Masks
 
 1) As for the Roberts, Sobel, and Prewitt mask, please use the masks as shown in Fig. 3.16 on page 109 of the text book.
 
