@@ -4,10 +4,9 @@ imageProcess edge detection (roberts , sobel, prewitt,stochastic filter)
 영상처리 HW #3
 
 
-### 1. Edge detection operators can be compared in an objective way. The performance of an edge detection operator in noise can be measured quantitatively as follows: Let n0 be the number of edge pixels declared and n1 be number of missed or new edge pixels after adding noise. If n0 is held fixed for the noiseless as well as noisy images, then the edge detection error rate is
-                        .
-Compare the performance of the gradient operators of Roberts, Sobel, Prewitt and the 5x5 stochastic gradient on a noisy image with SNR= 8dB. 
-Note that the pixel location (m,n) is declared an edge location if the magnitude gradient   exceeds a THRESH value of 150. The edge locations constitute an edge map. For this assignment, you can select 512x512 BMP or RAW grayscale image of Lena. 
+### 1. Edge detection operators can be compared in an objective way. The performance of an edge detection operator in noise can be measured quantitatively as follows: Let n0 be the number of edge pixels declared and n1 be number of missed or new edge pixels after adding noise. If n0 is held fixed for the noiseless as well as noisy images, then the edge detection error rate is ![image](https://user-images.githubusercontent.com/36159663/57966796-becf8280-7991-11e9-8621-d7867290786c.png)
+### Compare the performance of the gradient operators of Roberts, Sobel, Prewitt and the 5x5 stochastic gradient on a noisy image with SNR= 8dB. 
+### Note that the pixel location (m,n) is declared an edge location if the magnitude gradient   exceeds a THRESH value of 150. The edge locations constitute an edge map. For this assignment, you can select 512x512 BMP or RAW grayscale image of Lena. 
 
 
 
@@ -20,7 +19,7 @@ Note that the pixel location (m,n) is declared an edge location if the magnitude
 
 
 
-(1) Method to generate a noisy image with Gaussian noise
+## (1) Method to generate a noisy image with Gaussian noise
 
 The signal-to-noise ratio (SNR) is expressed in decibels as 
 ![image](https://user-images.githubusercontent.com/36159663/57966745-10c3d880-7991-11e9-8c3d-8b6f70953ea1.png)
