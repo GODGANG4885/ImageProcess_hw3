@@ -33,11 +33,11 @@ where ![image](https://user-images.githubusercontent.com/36159663/57966768-45d02
 
  ## (2) Method to compute an image power or variance
 
-The signal variance can be represented as follows:
+The signal variance can be represented as follows: ![image](https://user-images.githubusercontent.com/36159663/57966823-21c11980-7992-11e9-84b4-61e845897a13.png)
  
-where  
+where ![image](https://user-images.githubusercontent.com/36159663/57966826-31406280-7992-11e9-82bd-e63cb0bd998e.png)
 
-Thus, the image power for MXN image can be obtained by using the following equation:
+Thus, the image power for MXN image can be obtained by using the following equation: ![image](https://user-images.githubusercontent.com/36159663/57966832-3ef5e800-7992-11e9-9ae2-54719649232b.png)
 
 
 
@@ -47,6 +47,8 @@ Thus, the image power for MXN image can be obtained by using the following equat
 1) As for the Roberts, Sobel, and Prewitt mask, please use the masks as shown in Fig. 3.16 on page 109 of the text book.
 
 2) As for the 5x5 stochastic gradient mask, please use the mask shown below.
+![image](https://user-images.githubusercontent.com/36159663/57966835-503ef480-7992-11e9-881a-cebc23bff504.png)
+
 
 
 
