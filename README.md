@@ -26,7 +26,9 @@ The signal-to-noise ratio (SNR) is expressed in decibels as
 ![image](https://user-images.githubusercontent.com/36159663/57966745-10c3d880-7991-11e9-8c3d-8b6f70953ea1.png)
 
 where ![image](https://user-images.githubusercontent.com/36159663/57966768-45d02b00-7991-11e9-9071-bbe3da6285ec.png)
-  is the variance of the original image and   is the variance of the noise signal. In order to generate a noisy image with a specified SNR by adding Normalized Gaussian Noise with distribution of  , you can refer to the following source codes.
+  is the variance of the original image and ![image](https://user-images.githubusercontent.com/36159663/57966770-57193780-7991-11e9-90c7-6513db3a7f64.png)
+ is the variance of the noise signal. In order to generate a noisy image with a specified SNR by adding Normalized Gaussian Noise with distribution of ![image](https://user-images.githubusercontent.com/36159663/57966772-64362680-7991-11e9-9727-34bf2546c4ac.png)
+ , you can refer to the following source codes.
 
 
 
